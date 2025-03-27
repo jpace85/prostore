@@ -20,7 +20,7 @@ export async function signInWithCredentials(prevState: unknown, formData: FormDa
             throw error;
         }
 
-        return { success: false, message: 'Invlid email or password' }
+        return { success: false, message: 'Invalid email or password' }
     }
 }
 
