@@ -5,7 +5,6 @@ import { signInFormSchema, signUpFormSchema } from "../validators";
 import { signIn, signOut } from "@/auth";
 import { hashSync } from "bcrypt-ts-edge";
 import { prisma } from "@/db/prisma";
-import { sign } from "crypto";
 
 // Sign in the user with credentials
 export async function signInWithCredentials(
